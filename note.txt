@@ -1,0 +1,39 @@
+# CLONE PROJECT AND INIT PROJECT
+- npm install OR npm -i
+- set dotenv file (generate random string: openssl rand -base64 32)
+
+
+
+1. Install Drizzle (DB ORM)
+https://orm.drizzle.team/docs/get-started
+https://orm.drizzle.team/docs/get-started/neon-new
+https://orm.drizzle.team/docs/get-started/postgresql-new
+- npm i drizzle-orm pg dotenv
+- npm i -D drizzle-kit tsx @types/pg
+
+
+2. Install Shadcn (UI TEMPLATE)
+https://ui.shadcn.com/docs/installation
+https://ui.shadcn.com/docs/installation/next
+https://ui.shadcn.com/blocks
+- npx shadcn@latest init
+- npx shadcn@latest add button (install component, for example button)
+
+
+3. Create postgresql database using neon free version
+https://console.neon.tech/app/org-hidden-sunset-59582683/projects
+
+
+4. Generate database schema with drizzle orm
+https://orm.drizzle.team/docs/drizzle-kit-generate
+- npx drizzle-kit generate (delete all directory under /lib/drizzle/* first to see the generated sql)
+
+
+5. Push the database schema with drizzle orm to postgresql db
+https://orm.drizzle.team/docs/drizzle-kit-migrate
+- npx drizzle-kit migrate
+
+6. (Optional) If you have any schema changes to database, you can run command generate then push the changes
+https://orm.drizzle.team/docs/drizzle-kit-push
+- npx drizzle-kit push
+
