@@ -2,6 +2,23 @@
 - npm install OR npm -i
 - set dotenv file (generate random string: openssl rand -base64 32)
 
+# In Git, feat, chore, and fix are commit types used in Conventional Commits 
+to categorize changes made to the codebase. feat signifies a new feature, fix indicates a bug fix, 
+and chore denotes changes to tooling, build processes, or other non-code related updates. 
+Here's a more detailed breakdown: 
+- feat:
+Used when introducing a new functionality or feature to the application. 
+For example, adding a new user interface element or a new data processing pipeline. 
+Medium says "add dark mode toggle for user settings".
+- fix:
+Used when resolving a bug or defect in the code. For instance, fixing a component that 
+renders incorrectly or an issue with data validation. 
+Medium says "resolve issue with course filtering not updating".
+- chore:
+Used for changes that don't fit into feat or fix, and don't directly affect the application's functionality. 
+This includes things like updating dependencies, build configurations, or minor changes to tooling or scripts. 
+Medium says "update ESLint rules and dependencies".
+
 
 
 1. Install Drizzle (DB ORM)
