@@ -1,3 +1,4 @@
+___________________________________________________________________________________________________________________
 # CLONE PROJECT AND INIT PROJECT
 - npm install OR npm -i
 - set dotenv file (generate random string: openssl rand -base64 32)
@@ -18,7 +19,7 @@ Medium says "resolve issue with course filtering not updating".
 Used for changes that don't fit into feat or fix, and don't directly affect the application's functionality. 
 This includes things like updating dependencies, build configurations, or minor changes to tooling or scripts. 
 Medium says "update ESLint rules and dependencies".
-
+___________________________________________________________________________________________________________________
 
 
 1. Install Drizzle (DB ORM)
